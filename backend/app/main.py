@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.sessions import SessionMiddleware
 
-from app import models
+from app import models  # noqa: F401
 from app.config import settings
 from app.database import Base, engine
 from app.routes import auth, health, users
