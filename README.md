@@ -2,7 +2,11 @@
 
 **Identity Vault** is a full-stack identity management application built with **FastAPI**, **Next.js**, **Google OAuth**, and **PostgreSQL**.
 
-It enables users to sign in securely with their Google account, stores only the required profile details in a database, generates a unique identity ID for each user, and provides a clean dashboard to search and retrieve user information using that generated ID.
+It allows users to sign in securely with their Google account, stores only the required profile details in a database, generates a unique identity ID for each user, and provides a clean dashboard to search and retrieve user information using that generated ID.
+
+## Application Purpose
+
+Identity Vault works as a Google OAuth-based identity registry. It converts a verified Google profile into a database-backed internal identity record with a unique generated ID for secure lookup.
 
 ----
 
