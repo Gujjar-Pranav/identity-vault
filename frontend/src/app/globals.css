@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #ffffff;
+  color: var(--foreground);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.font-display {
+  font-family: var(--font-display), var(--font-inter), Arial, Helvetica, sans-serif;
+  letter-spacing: 0.04em;
+}
